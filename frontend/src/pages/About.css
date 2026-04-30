@@ -1,0 +1,5 @@
+.description:hover{
+  background-color: #5f6FFF;
+  color: white;
+  transition: all 1s;
+}
