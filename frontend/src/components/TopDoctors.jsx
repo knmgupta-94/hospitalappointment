@@ -32,7 +32,7 @@ import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 
-const Topdoctors = () => {
+const TopDoctors = () => {
     
   const {doctors} = useContext(AppContext);
   const firstRow = doctors.slice(0, 5)
@@ -97,4 +97,4 @@ const Topdoctors = () => {
   )
 }
 
-export default Topdoctors
+export default TopDoctors
